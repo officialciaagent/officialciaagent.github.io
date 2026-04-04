@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoot the Puck</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!-- GitHub and LinkedIn icons -->
+    <!-- Poppins Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- styles.css -->    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+
+        <!-- Left aligned hamburger menu -->
+        <button class="navbar-toggler" type="button" 
+            data-bs-toggle="offcanvas" 
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar" 
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Logo -->
+        <a class="logo navbar-brand navbar-logo" href="index.html">Aniley Garcia</a>
+
+        <!-- GitHub and LinkedIn icons -->
+        <div class="nav-icons">
+            <a href="https://github.com/officialciaagent" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <!-- Offcanvas menu opening from left -->
+        <div class="offcanvas offcanvas-start text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+            </ul>
+        </div>
+        </div>
+
+    </div>
+    </nav>
+
+    <main class="project-page">
+        <h1 class="projects-header text-center project-title">Shoot the Puck</h1><br>
+
+        <section class="project-section">
+            <!-- Image -->
+            <div>
+                <img src="images/projects2.png" alt="Multiple yellow columns with space in the middle that shrink as you look towards the right. There is a white puck on the bottom left and a green circle on the far right side of the image." class="project-main-image">
+            </div>
+
+            <!-- Description -->
+            <div class="project-content">
+                <p>
+                    Shoot the Puck is an interactive physics-based game developed using Web VPython that challenges players to accurately launch a 
+                    ball through a maze and into a target. The player controls the vertical position of the ball and adjusts its launch power using 
+                    keyboard inputs, then fires it toward the goal using the spacebar. The objective is to navigate through narrow pathways and 
+                    successfully land the ball in the designated hole.
+                </p>
+                <p>
+                    The project incorporates core physics concepts such as friction, velocity, and net force to simulate realistic motion. A friction 
+                    model was implemented to gradually slow the ball after launch, requiring players to carefully balance power and positioning. 
+                    Collision detection logic ensures that the ball resets upon contact with maze walls, reinforcing precision and control.
+                </p>
+                <p>
+                    Through this project, I gained experience implementing real-time simulations, handling user input, and applying physics-based 
+                    calculations in a game environment. Shoot the Puck demonstrates my ability to integrate mathematical modeling, interactive controls, 
+                    and game logic to create an engaging and responsive application.
+                </p>
+
+                <!-- Buttons -->
+                <div class="project-buttons">
+                    <a href="https://www.glowscript.org/#/user/Aniley_Garcia/folder/PHY-1200-01(SP25)/program/final-project" class="btn btn-dark" target="_blank">Open Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2026 Aniley Garcia. All Rights Reserved.</p>
+        <a href="https://coolors.co/ef476f-ffd166-ffffff-06d6a0-212529" style="color:#ffffff" target="_blank">Coolors Palette</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

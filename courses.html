@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!-- GitHub and LinkedIn icons --> 
+    <!-- Poppins Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- styles.css -->  
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+
+        <!-- Left aligned hamburger menu -->
+        <button class="navbar-toggler" type="button" 
+            data-bs-toggle="offcanvas" 
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar" 
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Logo -->
+        <a class="logo navbar-brand navbar-logo" href="index.html">Aniley Garcia</a>
+
+        <!-- GitHub and LinkedIn icons -->
+        <div class="nav-icons">
+            <a href="https://github.com/officialciaagent" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <!-- Offcanvas menu opening from left -->
+        <div class="offcanvas offcanvas-start text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+            </ul>
+        </div>
+        </div>
+
+    </div>
+    </nav>
+
+    <br><br><h1 class="courses-header text-center mt-5">Courses</h1>
+    <p class="text-center">Below one can read all about my majors and minors, course history, and relevant outside experience.</p>
+
+    <section class="majors-minors">
+        <div class="majors container text-center mt-4">
+            <h2>Majors</h2>
+
+            <div class="major-one">
+                <h3>Computer Science</h3>
+                <p>
+                    I chose Computer Science because of my initial knack for it in high school, but I also enjoy problem-solving, building projects,
+                    and learning how technology can be used to create practical solutions for real-world problems.
+                </p>
+            </div>
+
+            <div class="major-two">
+                <h3>Pre-Law</h3>
+                <p>
+                    I chose Pre-Law because I am interested in legal reasoning, argumentation,
+                    and understanding how law intersects with my interests in computer science and cybersecurity.
+                    It pairs well with my interests in reading, writing, and storytelling.
+                </p>
+            </div>
+        </div>
+
+        <div class="minors container text-center mt-4">
+            <h2>Minors</h2>
+
+            <div class="minor-one">
+                <h3>Theater</h3>
+                <p>
+                    I chose Theater because of my love for it starting from elementary school. It has strengthened my creativity, confidence,
+                    communication skills, ability to think on the spot, and ability to analyze characters and stories.
+                </p>
+            </div>
+
+            <div class="minor-two">
+                <h3>Legal Studies</h3>
+                <p>
+                    I chose Legal Studies because it forced me to study different disciplines to better understand how logic, history,
+                    and criminal justice all influence the law. Additionally, focusing on logic allowed me to better understand logic flows in computer science.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h2 class="text-center">Course History</h2>
+
+        <div class="courses-table-div">
+            <table class="courses-table">
+                <thead>
+                    <tr>
+                        <th class="course-number">Course Number</th>
+                        <th class="course-name">Course Name</th>
+                        <th class="course-term">Term Taken</th>
+                        <th class="course-description">Course Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CSC-1000</td>
+                        <td>Technology Life Skills</td>
+                        <td>Spring 2023</td>
+                        <td>
+                            In an age where information technology drives almost everything in our daily lives, it is important to have a 
+                            basic understanding of how the technology works, what it means to us, and what risks we may be exposed to. 
+                            This course provides an introduction to fundamental concepts in computing. Emphasis will include the impact of 
+                            computing in academic disciplines and all aspects of society. Topics covered may include: a brief history of computing, 
+                            computational thinking, the basics of programming, data representation (how sound and video are digitized), 
+                            how computers work, operating systems and networks, the internet, building web pages, spreadsheets and data analytics, 
+                            databases, social issues, security and privacy.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MTH-1410</td>
+                        <td>Calculus I</td>
+                        <td>Spring 2023</td>
+                        <td>
+                            Differential and integral calculus of functions of a single real variable, including trigonometric, exponential, 
+                            and logarithmic functions. The course will cover limits, continuity, differentiation, applications of derivatives, 
+                            introduction to integration, the Fundamental Theorem of Calculus and definite integrals. Derivatives and integrals 
+                            are explored graphically, symbolically, and numerically.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSC-1710</td>
+                        <td>Introduction to Computer Programming</td>
+                        <td>Fall 2023</td>
+                        <td>
+                            An introduction to the fundamentals of programming using a high-level, structured programming language such as C. 
+                            Emphasis will be placed on syntax and semantics of the language to write correct, efficient, and easily modifiable programs. 
+                            Topics include, but are not limited to, assignment statements, conditional and iterative control structures, functions, 
+                            simple data structures, and software development.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>THE-1000</td>
+                        <td>Foundations of Theater</td>
+                        <td>Fall 2023</td>
+                        <td>
+                            An introduction to the collaborative art of theater, concentrating on the evolution of theater from dramatic ritual 
+                            to dramatic literature. Through attendance at live theatrical performances and the reading of plays, students will 
+                            explore script analysis techniques directed towards production rather than strictly for their literary value.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>THE-1100</td>
+                        <td>Theater Participation</td>
+                        <td>Fall 2023</td>
+                        <td>
+                            Practical experience in stage managing, costume construction, scenery construction, scene painting, lighting crew, 
+                            props crew, sound crew, running crew, and/or performance for High Point University productions during the semester.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSC-1720</td>
+                        <td>Advanced Programming with Data Structures</td>
+                        <td>Spring 2024</td>
+                        <td>
+                            This is a continuation of CSC 1710 covering more advanced fundamentals of programming including problem-solving strategies, 
+                            the concept of an algorithm and basic data structures in an object-oriented language such as C++. Various programming 
+                            concepts will be introduced such as recursion, string processing, classes, sorting, searching, linked lists, stacks, queues, 
+                            and trees.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSC-2342</td>
+                        <td>Discrete Structures</td>
+                        <td>Spring 2024</td>
+                        <td>
+                            This is an introductory course in discrete mathematical structures widely used computer science. The purpose of this 
+                            course is to understand and use (abstract) discrete structures that are backbones of computer science. This course 
+                            teaches the students techniques in how to think logically and mathematically and apply these techniques in solving problems. 
+                            In particular, this class is meant to introduce logic, proofs, sets, relations, functions, counting, and probability, with an 
+                            emphasis on applications in computer science.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>THE-1200</td>
+                        <td>Fundamentals of Acting</td>
+                        <td>Spring 2024</td>
+                        <td>
+                            An introduction to Stanislavski-based actor training including studies and exercises designed to develop the student's 
+                            abilities to create a character. Students will explore basic improvisation, stage movement, monologue, scene work, and 
+                            script analysis as tools for characterization.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>THE-1720</td>
+                        <td>Stagecraft: Theory and Practice</td>
+                        <td>Spring 2024</td>
+                        <td>
+                            Theater production is said to be a collaborative art. This class will instruct students on the art and craft involved 
+                            in producing a fully realized theatrical production. Students will engage in a wide array of hands-on projects to illustrate 
+                            class topics and discussions. They will also participate in the creation and staging of HPU Department of Theater productions 
+                            which run throughout the semester. Topics include design theory, paint and color theory, scenery construction and technical 
+                            design, electrics and lighting, and costumes and makeup.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PHL-3006</td>
+                        <td>Symbolic Logic</td>
+                        <td>Spring 2024</td>
+                        <td>
+                            This course is designed to teach the fundamental concepts and methods of formal deductive and inductive logic and their 
+                            applications in critical analysis. The course will help students to prepare for graduate and professional schools and 
+                            associated admissions tests.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSC-2410</td>
+                        <td>Computer Systems</td>
+                        <td>Fall 2024</td>
+                        <td>
+                            An introduction to instruction set architecture, microarchitecture, and system architecture. Topics include basic 
+                            computer organization, central processor and memory, addressing techniques, data representation, fundamental programming 
+                            techniques in assembly and machine language as it relates to operating systems and high level languages. The course also 
+                            includes exposure to networking and communication as well as parallel and distributed computing.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MTH-2310</td>
+                        <td>Linear Algebra</td>
+                        <td>Fall 2024</td>
+                        <td>
+                            Systems of linear equations and matrices, determinants, vector spaces and inner-product spaces, linear transformations, 
+                            eigenvalues and eigenvectors. The emphasis is on computational techniques and applications.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>BUA-3050</td>
+                        <td>Business Law</td>
+                        <td>Fall 2024</td>
+                        <td>
+                            This course is a study of U.S. law regarding business. The course will cover topics such as the American legal and 
+                            regulatory system, contracts, torts, product liability, forms of business ownership, international commercial dispute 
+                            resolutions process, EEOC, affirmative action, performance appraisal, and discrimination in the workplace.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>HST-3211</td>
+                        <td>Race and the Law</td>
+                        <td>Fall 2024</td>
+                        <td>
+                            This course will focus on a single topic in American legal history; possibilities include constitution writing, the history 
+                            of family law, or interpretations of the 14th Amendment. Through this more focused process, students will gain more insight 
+                            into the factors that cause interpretations of law to change over time.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSC-2710</td>
+                        <td>Advanced Data Structures/Algorithm Development</td>
+                        <td>Spring 2025</td>
+                        <td>
+                            This is a continuation of CSC-1720 where the focus is on algorithm development utilizing advanced data structures such as 
+                            graphs and trees. Various programming strategies will be addressed such as greedy, divide and conquer, backtracking, branch 
+                            and bound and dynamic programming. Other topics include recursion, algorithm analysis, object oriented programming and event 
+                            driven programs.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>THE-3300</td>
+                        <td>Scenography</td>
+                        <td>Spring 2025</td>
+                        <td>
+                            A study of the design process for scenery and lighting, emphasizing the creative aspects of theatrical design from the 
+                            analysis of the script to the final elevations and lighting plot. The students study will involve the analysis of selected 
+                            plays and historically significant designs, and will culminate in a final design project.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSC-2212</td>
+                        <td>Database Systems</td>
+                        <td>Fall 2025</td>
+                        <td>
+                            This course covers database design and the use of databases in web, mobile and cloud applications. It includes extensive 
+                            coverage of the relational model, relational algebra, and SQL as well as NoSQL designs. The course also features database 
+                            design and relational design principles based on dependencies and normal forms. There will be a programming project, which 
+                            explores database design and management by utilizing appropriate features of SQL.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>THE-3800</td>
+                        <td>Directing</td>
+                        <td>Fall 2025</td>
+                        <td>
+                            An introductory course exploring the history, principles, and philosophy of stage direction. Students will learn to 
+                            successfully analyze a play for concept, organize a script for production, and effective rehearsal procedures. The student's 
+                            hands-on study leads to the rehearsal and presentation of a culminating project.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PHL-1006</td>
+                        <td>Logic and Critical Thinking</td>
+                        <td>Fall 2025</td>
+                        <td>
+                            This course is designed to help students write, read, and engage in dialogue more critically through examination of the use 
+                            and misuse of arguments in politics, business, science, and everyday life. Both inductive and deductive reasoning will be 
+                            studied.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSC-1210</td>
+                        <td>Web Site Development</td>
+                        <td>Spring 2026</td>
+                        <td>
+                            An introduction to the technologies related to creation of a World Wide Web site. Emphasis will be placed on the latest 
+                            languages and techniques used to create a dynamic site. Each student will participate in a series of projects that focuses 
+                            on the creation of an interactive web site.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSC-4710</td>
+                        <td>Software Engineering</td>
+                        <td>Spring 2026</td>
+                        <td>
+                            This capstone course studies the principles and practices of software engineering covering the software development life cycle. 
+                            The focus will be software design from an object-oriented perspective, covering abstraction, encapsulation, data protection, 
+                            inheritance, composition and polymorphism. Students will demonstrate their understanding of the software development life cycle 
+                            through team projects.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>LST-4000</td>
+                        <td>Legal Studies Capstone</td>
+                        <td>Spring 2026</td>
+                        <td>
+                            Legal studies, by its nature, involves multiple disciplines. By now, one will have taken several courses, in multiple 
+                            departments, which utilize law or legal skills. This course ties these diverse perspective together in an effort to define 
+                            law and determine how it works in society. Throughout the course students will learn how multiple disciplines approach the 
+                            same topic differently. They will see this through readings, discussions, writing assignments and experiential learning 
+                            outside the classroom.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="outside-endeavors">
+        <h2>Outside Endeavors</h2>
+
+        <div class="reu">
+            <div class="reu-text">
+                <h4>Investigating the Latest Status of Spanglish in Multilingual Large Language Models (MLLMs)</h4>
+                <p>
+                    This project was conducted through a Research Experience for Undergraduates (REU) program at Portland State University, 
+                    funded by the National Science Foundation (NSF) under the guidance of Dr. Ameeta Agrawal. The research focused on developing 
+                    and evaluating mixed-language question answering (QA) systems, with a specific emphasis on Spanglish code-switching. User-generated 
+                    content such as social media posts, forums, and reviews often blends multiple languages within a single sentence, making it difficult 
+                    to analyze using traditional methods. To address this, I applied natural language processing (NLP) techniques and leveraged recent 
+                    advances in large language models (LLMs) to design systems capable of understanding questions in one language and retrieving accurate 
+                    answers from code-switched or multilingual text.
+                </p>
+                <br>
+                <p>
+                    In addition to evaluating model performance, I explored how prompt design and input structure influence the behavior of multilingual 
+                    systems when handling code-switched language. Small changes in phrasing or language order often led to noticeably different outputs, 
+                    highlighting how sensitive these models can be to linguistic context. This reinforced the importance of designing evaluation methods 
+                    that reflect real-world usage rather than idealized, single-language inputs. Overall, this experience deepened my understanding of 
+                    how large language models process multilingual data and emphasized the challenges of building systems that can reliably interpret 
+                    and respond to naturally mixed-language communication.
+                </p>
+            </div>
+            <img src="images/projects4.png" alt="A green book titled Summer Proceedings 2025: How Students Use Computational Modeling to Benefit Society." class="reu-img">
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2026 Aniley Garcia. All Rights Reserved.</p>
+        <a href="https://coolors.co/ef476f-ffd166-ffffff-06d6a0-212529" style="color:#ffffff" target="_blank">Coolors Palette</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html> 

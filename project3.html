@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroids</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!-- GitHub and LinkedIn icons -->    
+    <!-- Poppins Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- styles.css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+
+        <!-- Left aligned hamburger menu -->
+        <button class="navbar-toggler" type="button" 
+            data-bs-toggle="offcanvas" 
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar" 
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Logo -->
+        <a class="logo navbar-brand navbar-logo" href="index.html">Aniley Garcia</a>
+
+        <!-- GitHub and LinkedIn icons -->
+        <div class="nav-icons">
+            <a href="https://github.com/officialciaagent" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <!-- Offcanvas menu opening from left -->
+        <div class="offcanvas offcanvas-start text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+            </ul>
+        </div>
+        </div>
+
+    </div>
+    </nav>
+
+    <main class="project-page">
+        <h1 class="projects-header text-center project-title">Arcade Shooter</h1><br>
+
+        <section class="project-section">
+            <!-- Image -->
+            <div>
+                <img src="images/projects3.png" alt="A light gray square rests on the bottom of the image. Multi-colored balls are scattered around the top of the image." class="project-main-image">
+            </div>
+
+            <!-- Description -->
+            <div class="project-content">
+                <p>
+                    Arcade Shooter is an interactive game developed using Web VPython that challenges players to control a moving shooter and eliminate 
+                    dynamically moving targets within a constrained space. The player navigates the shooter using keyboard controls and fires projectiles 
+                    in four directions, with a limited ammunition system that requires reloading. The objective is to hit as many moving targets as 
+                    possible while managing shot efficiency and timing.
+                </p>
+                <p>
+                    The project incorporates real-time simulation, collision detection, and score tracking to create an engaging gameplay experience. 
+                    A custom collision detection function was implemented to determine when bullets intersect with targets, triggering score updates 
+                    and removing objects from the scene. The game also includes a scoring system that rewards accuracy and penalizes excessive shooting 
+                    and time taken, encouraging players to optimize their strategy.
+                </p>
+                <p>
+                    Through this project, I gained experience with managing dynamic object lists and implementing game logic that balances user input, 
+                    physics, and scoring systems. Arcade Shooter demonstrates my ability to design interactive applications that combine real-time updates, 
+                    user control, and performance-based feedback.
+                </p>
+
+                <!-- Buttons -->
+                <div class="project-buttons">
+                    <a href="https://www.glowscript.org/#/user/Aniley_Garcia/folder/PHY-1200-01(SP25)/program/collision-A" class="btn btn-dark" target="_blank">Open Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2026 Aniley Garcia. All Rights Reserved.</p>
+        <a href="https://coolors.co/ef476f-ffd166-ffffff-06d6a0-212529" style="color:#ffffff" target="_blank">Coolors Palette</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
